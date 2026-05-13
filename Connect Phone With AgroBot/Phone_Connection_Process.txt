@@ -1,0 +1,35 @@
+PHONE CONNECTION PROCESS
+
+
+Step 1: Power ON
+Turn ON the ESP32.
+ESP32 will create its own Wi-Fi hotspot.
+Wi-Fi Name: ESP32-DASH
+Password: 12345678
+
+
+Step 2: Connect Phone to Wi-Fi
+Go to: Settings -> Wi-Fi
+Connect the Wi-Fi
+
+
+Step 3: Open Browser
+Open Chrome or any browser.
+Type: 192.168.4.1
+
+
+Step 4: Dashboard Control
+Now you can control:
+- Robot Movement
+- Pump
+- Grass Cutter
+- Servo Motors
+- Sensor Monitoring
+directly from your phone.
+
+
+
+NOTE:
+- Internet is NOT required. ESP32 creates its own local Wi-Fi network.
+- Typical range: 10-30 meters
+- Multiple phones can connect at the same time.
