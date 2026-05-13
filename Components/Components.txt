@@ -1,0 +1,34 @@
+Components
+1. Soil moisture sensor
+2. Water level sensor
+3. Temperature and humidity sensor (DHT)
+4. Rain sensor
+5. Servo * 2
+6. PVC Board
+7. Motor driver (L298N)
+8. DC motors
+9. Pump
+10. Wheel * 4 
+11. Gear motor * 4
+12. Buck converter 12v to 5v
+13. ESP 32
+14. Bread board
+15. Relay module 2 channel
+16. Battery holder 1S
+17. Battery holder 3s
+18. 4 batter
+19. Battery charger
+20. Jumper wire
+21. Wire
+22. Switch
+
+Tools
+1. Soldering iron
+2. Lead
+3. Resin
+4. Both side tape
+5. Glue gun and glue stick
+6. Wire cutter
+7. Anti cutter
+8. Screwdriver
+9. Super glue

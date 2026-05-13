@@ -1,0 +1,92 @@
+AgroBot Circuit CONNECTIONS
+
+
+
+ESP32
+5v -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+DHT11 Temp & hum Sensor
+DATA -> GPIO15
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+Rain Sensor
+AO -> GPIO32
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+Water Level Sensor
+AO -> GPIO35
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+Soil Moisture Sensor
+AO -> GPIO34
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+Servo Motor 1
+Signal -> GPIO13
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+Servo Motor 2
+Signal -> GPIO5
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+
+
+Relay
+VCC -> 5V (Boost converter)
+GND -> GND (Boost converter)
+Pump Relay
+IN -> GPIO18
+Grass-Cutter Relay
+IN -> GPIO4
+
+
+Pump Motor
+VCC -> Pump Relay NO
+GND -> Switch Output (Battery GND)
+
+
+Grass-Cutter Motor
+VCC -> Grass-Cutter Relay NO
+GND -> Switch Output (Battery GND)
+
+
+Relay (Both)
+COM -> VCC (3s battery pack)
+
+
+L298N Motor Driver
+IN1 -> GPIO16
+IN2 -> GPIO17
+IN3 -> GPIO14
+IN4 -> GPIO12
+ENA -> GPIO25
+ENB -> GPIO26
+VCC -> VCC (3s battery pack)
+GND -> Switch Output (Battery GND)
+[ENA & ENB pre-connected jumper wire must be put off]
+
+
+Motors to L298N
+Left Motor -> OUT1 + OUT2
+Right Motor -> OUT3 + OUT4
+[Change motor +ve & -ve wire with among them of each motor, if they are rotate opposite]
+
+
+Power (-ve)
+3S battery pack GND + 1S battery pack GND + Switch in
+
+
+IMPORTANT:
+Battery GND connections must be common.
